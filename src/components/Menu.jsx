@@ -11,7 +11,7 @@ function Menu({menuOpen,setMenuOpen}) {
                 <a href="#portfolio">Portfolio</a>
             </li>
             <li onClick={()=> setMenuOpen(false)}>
-                <a href="#skills">Skills</a>
+                <a href="#highlight-projects">Highlight Projects</a>
             </li>
             <li onClick={()=> setMenuOpen(false)}>
                 <a href="#resume">Resume&CV</a>

@@ -11,9 +11,9 @@ function Testimonials() {
         "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       icon: "assets/twitter.png",
       download:
-      "Jaruwit_resume.jpg",
+      "Jaruwit_Resume.png",
       desc:
-        "./assets/resume.png",
+        "./assets/Jaruwit_Resume.png",
     },
     {
       id: 2,
@@ -23,9 +23,9 @@ function Testimonials() {
         "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       icon: "assets/youtube.png",
       desc:
-        "./assets/cv.png",
+        "./assets/Jaruwit_CV.png",
       download:
-      "Jaruwit_cv.jpg",
+      "Jaruwit_CV.png",
       featured: true,
     },
     

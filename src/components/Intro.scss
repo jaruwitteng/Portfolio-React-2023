@@ -92,7 +92,9 @@
         flex: 1;
         position: relative;
         background-color: black;
-        
+        @include mobile{
+            margin-right: 80px;
+        }
 
         .wrapper{
             width: 100%;

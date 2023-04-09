@@ -1,5 +1,5 @@
 import React from 'react'
-import {Person, Mail} from '@material-ui/icons'
+import {Person, Mail,GitHub} from '@material-ui/icons'
 import './Navbar.scss'
 
 function Navbar({menuOpen,setMenuOpen}) {
@@ -8,8 +8,14 @@ function Navbar({menuOpen,setMenuOpen}) {
       <div className="wrapper">
         <div className="left">
             <a href="#intro" className='logo'>
-              <p>Jaruwit.T</p>
+              
+              <p>Jaruwit.T </p>
+              
             </a>
+            <div className="itemContainer">
+              <a href="https://github.com/jaruwitteng?tab=repositories" target='_blank'><GitHub className='icon git'/></a>
+              
+            </div>
             <div className="itemContainer">
               <Person className='icon'/>
               <span>080-7628742</span>
