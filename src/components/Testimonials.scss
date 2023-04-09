@@ -1,0 +1,135 @@
+@import '../global.scss';
+.testimonials{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    h1{
+        font-size: 50px;
+        overflow: hidden;
+        
+    }
+
+    .container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+
+        
+        
+
+        .card{
+            width: 250px;
+            height: 70%;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px -8px black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 20px;
+            transition: all 1s ease;
+
+            &.featured{
+                /*
+                width: 300px;
+                height: 600px;
+                */
+                margin: 0 30px;
+            }
+/*
+            &:hover{
+                transform: scale(1.1);
+                background-color: black;
+                opacity: 0.5;
+                z-index: 0;
+                
+
+
+
+                
+            }
+*/
+            .top{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img{
+                    &.left, &.right{
+                        height: 25px;
+                    }
+
+                    &.user{
+                        height: 60px;
+                        width: 60px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                        margin: 0 30px;
+                    }
+
+
+                }
+            }
+
+            .center{
+                padding: 10px;
+                background-color: $mainColor;
+                border-radius: 10px;
+                overflow: hidden;
+                transition: all 1s ease;
+
+                &:hover{
+                    transform: scale(1.1);
+                    
+                    opacity: 1;
+                    
+
+                    h5{
+                        
+                        opacity: 1;
+                        z-index: 10;
+                    }
+                }
+
+                h5{
+                    opacity: 0;
+                    
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                
+                 img{
+                    object-fit: contain;
+                    height: 100%;
+                    width: 100%;
+                 }
+
+            }
+            
+            .bottom{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+
+                h3{
+                    margin-bottom: 5px;
+                }
+                h4{
+                    color: rgb(78, 78, 78);
+                }
+            }
+        }
+
+    }
+
+
+
+}
