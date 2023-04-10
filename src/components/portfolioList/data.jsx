@@ -23,7 +23,7 @@ export const mernPortfolio = [
         id: 1,
         title: 'Coursework Planner (Due to company privacy, URL can not be provide)',
         img: '../assets/cpai_thumb.png',
-        link: 'https://www.youtube.com/watch?v=z1HtylaVzqc&ab_channel=JaruwitTengsujaritgul'
+        link: 'https://youtu.be/97sjsw4ahB8'
     },
 
 ]
